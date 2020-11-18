@@ -23,7 +23,7 @@
             		//$me[$i] = str_repeat("*", strlen($me[$i]));			     //or the classic star-ing	
 	    		}
 	    }
-	    } else if(in_array($me2[$i], $exem2)){                                           //to get any 3-letter bad words that escaped the first check
+	    } else if(in_array($me2[$i], $exem2)){                                           //to filter any 3-letter bad word that escaped the first check
 	    $me[$i]="<strike><d style = opacity:20%>".$me[$i]."</d></strike>";               //censoring it
 	    $sensored .= "$me[$i]"." ";                                                      //compiling the censored version of original message
 	    }
