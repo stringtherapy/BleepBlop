@@ -31,9 +31,6 @@
 	}	
 	}	
 	
-    
- 
-
-$exem = array("whole", "will", "other","mother","long","fell","best","face","star","ones","horn","chin","lock","full","test","phone","head");  //cases for which the program failed 
-
+	//cases for which the program failed 
+    	$exem = array("whole", "will", "other","mother","long","fell","best","face","star","ones","horn","chin","lock","full","test","phone","head"); 
 ?>
