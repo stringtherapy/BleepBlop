@@ -8,13 +8,10 @@
 	$me=explode(" ",$mess);				  //string to array conversion	
     	$length = count($me);				  //number of words from user
 	$censored='';					  //pre-defining the output variable 
-    	$melow = array();			          //pre-defining an array needed in the for loop		
 
 	for ($i = 0; $i < $length; $i++)					 	     //each word from user passes through this loop for filtering 
-		
 	{
-        $melow[$i] = strtolower($me[$i]);	                                             //making the word lowercase 
-	$me2[$i] = preg_replace('/[^A-Za-z0-9\-]/', '', $melow[$i]);	 	             //removing all the special characters
+	$me2[$i] = preg_replace('/[^A-Za-z0-9\-]/', '', $me[$i]);	 	             //removing all the special characters
 	    if(strlen($me2[$i]) >= 4){	                                                     //ignoring words less than 4 characters to prevent mis-interpretation of short words like pronouns as substrings of profanity words   					
 	    $me3[$i] = "/$me2[$i]/";                                                         //adding delimiters required to run the upcoming RegEx function - preg_match()
 	    	if(preg_match($me3[$i], $list)==1){                              	     //the core comparison takes place here 
