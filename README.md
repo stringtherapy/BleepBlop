@@ -1,5 +1,5 @@
 # BleepBlop
-Profanity Word Detector based on PHP RegEx
+Profanity Word Detector based on PHP RegEx [http://bleepblop.cf/]
 
-Visit [http://bleepblop.cf/] to test
-List of words banned by Google - (source)[https://github.com/RobertJGabriel/Google-profanity-words/blob/master/list.txt]
+
+Source of words banned by Google - [https://github.com/RobertJGabriel/Google-profanity-words/blob/master/list.txt]
