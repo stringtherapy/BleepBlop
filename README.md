@@ -1,3 +1,4 @@
 # BleepBlop
 Profanity Word Detector based on PHP RegEx
-[http://bleepblop.cf/]
+
+Visit [http://bleepblop.cf/] to test
