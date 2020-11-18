@@ -1,2 +1,2 @@
 # BleepBlop
-Profanity Word Detector 
+Profanity Word Detector based on PHP RegEx
