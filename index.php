@@ -7,7 +7,8 @@
 	$mess="any message";                              //string from user 
 	$me=explode(" ",$mess);				  //string to array conversion	
     	$length = count($me);				  //number of words from user
-	$censored='';					  //pre-defining the output variable 
+	$censored='';					  //pre-defining the output variable
+	$check=0;
 
 	for ($i = 0; $i < $length; $i++)					 	     //each word from user passes through this loop for filtering 
 	{
