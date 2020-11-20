@@ -1,7 +1,7 @@
 <?php 
 	$list1 = file_get_contents("profan.txt");         //text file containing profanity words
 	$list2 = file_get_contents("three.txt");	  //text file containing only 3-letter profanity words extracted from profan.txt
-    	$exem2 = explode("\n",$newlist);		  //converting string of 3-letter words into array (for later use) 	
+    	$exem2 = explode("\n",$list2);		  //converting string of 3-letter words into array (for later use) 	
     
 	
 	$mess="any message";                              //string from user 
